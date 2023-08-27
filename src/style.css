@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  text-align: center;
+  margin-top: 200px;
+}
+
+#intro {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+#excuse {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: ;
+}
+
+#generateButton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ff9d00;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#generateButton:hover {
+  background-color: #b33900;
+}
